@@ -1,0 +1,86 @@
+body {
+    font-family: arial;
+    margin: 15px;
+    text-align: center;
+}
+.wrap {
+    display: inline-block;
+    margin: 0 40px 2em 0;
+    background: lightgray;
+}
+div {
+    width: 170px;
+    height: 100px;
+    line-height: 100px;
+    border-radius: 25px;
+    margin: 0 0 auto;
+    transition: all 0.5s ease-in-out;
+}
+div:hover {
+    cursor: pointer;
+}
+/*jednake su nam prva. četvrta, sedma i deseta */
+.one, .four, .seven, .ten {
+    background: tomato;
+}
+.two, .five, .eight, .eleven {
+    background: springgreen;
+}
+.three, .six, .nine {
+    background: gold;
+}
+.one:hover {
+    transform: translateX(20px);
+    background: violet;
+    opacity: 0.7;
+}
+.two:hover {
+    transform: translateY(-20px);
+    background: lightblue;
+    opacity: 0.7
+}
+.three:hover {
+    transform: translate(-20px,20px);
+    background: green;
+    opacity: 0.7
+}
+.four:hover {
+    transform: scaleX(-1) ;
+    background: violet;
+    opacity: 0.7
+}
+.five:hover {
+    transform: scaleY(1.2);
+    background: lightblue;
+    opacity: 0.7
+}
+.six:hover {
+    transform: scale(1.2,0.5);
+    background: green;
+    opacity: 0.7
+}
+.seven:hover {
+    transform: rotate(720deg);
+    background: violet;
+    opacity: 0.7
+}
+.eight:hover {
+    transform: skewX(20deg);
+    background: lightblue;
+    opacity: 0.7
+}
+.nine:hover {
+    transform: skewY(-20deg);
+    background: green;
+    opacity: 0.7
+}
+.ten:hover {
+    transform: skew(20deg, 20deg);
+    background: violet;
+    opacity: 0.7
+}
+.eleven:hover {
+    transform: matrix(1.2,0,0.5,1.2,50,0);
+    background: lightblue;
+    opacity: 0.7
+}
